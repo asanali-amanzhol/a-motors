@@ -37,7 +37,7 @@
 }
 
 .footer__left {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 12px;
 }
@@ -63,5 +63,9 @@
 @media (min-width: 1024px) {
     .contacts__title {
         display: inline;
+    }
+
+    .footer__left {
+        display: flex;
     }
 }
