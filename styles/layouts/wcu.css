@@ -39,6 +39,7 @@
 
 .wcu__grid-item {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 8px;
 }
@@ -52,10 +53,6 @@
     font-size: 16px;
 }
 
-.wcu__grid-item {
-    display: flex;
-    flex-direction: row;
-}
 
 .wcu__grid-item-description {
     display: none;
