@@ -34,7 +34,7 @@
     width: 100%;
     gap: 12px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .wcu__grid-item {
@@ -44,12 +44,12 @@
 }
 
 .wcu__grid-item-title {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 0.95;
 }
 
 .wcu__grid-item-title::first-line {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .wcu__grid-item {
@@ -96,5 +96,13 @@
 
     .wcu__container {
         gap: 24px;
+    }
+
+    .wcu__grid-item-title::first-line {
+        font-size: 24px;
+    }
+
+    .wcu__grid-item-title {
+        font-size: 12px;
     }
 }
