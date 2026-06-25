@@ -1,0 +1,112 @@
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero__title {
+    font-size: 42px;
+}
+
+.hero__buttons {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero__2button {
+    background: none;
+    border: 2px solid var(--color-secondary-text);
+    color: var(--color-text);
+}
+
+.hero__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    gap: 36px;
+}
+
+.hero__1button::after {
+    content: '→';
+}
+
+.hero__2button::after {
+    content: '↓';
+}
+
+.hero__right {
+    width: 100%;
+    height: 200px;
+    background-image: url('../../images/hero.png');
+    background-size: cover; /* Растягивает картинку так, чтобы она заполнила весь блок */
+    background-position: center center; /* Центрирует картинку в блоке */
+    background-repeat: no-repeat;
+}
+
+.hero__feature-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid var(--color-border);
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-light-accent);
+}
+
+.hero__feature-icon img {
+    width: 20px;
+}
+
+.hero__feature {
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    gap: 8px
+}
+
+.hero__feature-text::first-line {
+    color: var(--color-text)
+}
+
+.hero__features {
+    display: none;
+    flex-direction: row;
+    gap: 24px;
+}
+
+@media (min-width: 1024px) {
+    .hero {
+        display: flex;
+        flex-direction: row;
+        height: 420px;
+        border-bottom: 2px solid var(--color-border);
+    }
+
+    .hero__buttons {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .hero__right {
+        width: 60%;
+        height: 100%;
+        background-size: cover; /* Растягивает картинку так, чтобы она заполнила весь блок */
+        background-position: center; /* Центрирует картинку в блоке */
+        background-repeat: no-repeat;
+    }
+
+    .hero__left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero__features {
+        display: flex;
+    }
+}

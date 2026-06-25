@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__order {
+    display: none;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.header__order img {
+    width: 36px;
+}
+
+.header__phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .header__nav {
+        display: block;
+        font-family: var(--font-family-text);
+    }
+
+    .header__nav-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .header__order {
+        display: flex;
+    }
+}

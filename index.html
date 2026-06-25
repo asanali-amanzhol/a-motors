@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проффесиональный автосервис в г. Астана | A-Motors</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="logo">
+            <div class="logo__squard">
+                <h1>A</h1>
+            </div>
+            <div class="logo__name">
+                <h2 class="logo__title-name">A-MOTORS</h2>
+                <p class="logo__description">АВТОСЕРВИС В АСТАНЕ</p>
+            </div>
+        </div>
+        <button class="burger-menu" role="button" aria-expanded="false" aria-controls="burger-menu" aria-label="Открыть меню">
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+        </button>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#main" class="header__nav-link">Главная</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#services" class="header__nav-link">Услуги</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#wcu" class="header__nav-link">Приемущества</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="" class="header__nav-link">О нас</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="" class="header__nav-link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__order">
+            <img src="./icons/phone.svg" alt="Иконка телефона" aria-hidden="true" loading="lazy">
+            <div class="header__phone">
+                <h3 class="header__number">+7 (771) 111-11-11</h3>
+                <p class="header__time-info">Ежедневно с 09:00 до 21:00</p>
+            </div>
+            <button class="header__btn btn">Записаться</button>
+        </div>
+    </header>
+    <main id="main">
+        <section class="hero">
+            <div class="hero__left container">
+                <h1 class="hero__title">Проффесиональный<br>автосервис<br>в Астане</h1>
+                <p class="hero__description">Диагностика, ремонт и техническое <br class="sp">обслуживание автомобилей любых марок.</p>
+                <div class="hero__buttons">
+                    <button class="hero__1button btn hero__btn">Записаться на сервис</button>
+                    <a class="hero__2button btn hero__btn" href="#services">Наши услуги</a>
+                </div>
+                <div class="hero__features">
+                    <div class="hero__feature">
+                        <div class="hero__feature-icon">
+                            <img src="./icons/security-2-svgrepo-com.svg" alt="" loading="lazy">
+                        </div>
+                        <p class="hero__feature-text">
+                            Гарантия <br> на все работы
+                        </p>
+                    </div>
+                    <div class="hero__feature">
+                        <div class="hero__feature-icon">
+                            <img src="./icons/clock-svgrepo-com.svg" alt="" loading="lazy">
+                        </div>
+                        <p class="hero__feature-text">
+                            Современное <br> оборудование
+                        </p>
+                    </div>
+                    <div class="hero__feature">
+                        <div class="hero__feature-icon">
+                            <img src="./icons/location-pin-svgrepo-com.svg" alt="" loading="lazy">
+                        </div>
+                        <p class="hero__feature-text">
+                            Удобное расположение <br> в центре Астаны
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__right"></div>
+        </section>
+        <section id="services" class="services container">
+            <h2 class="services__title">Наши услуги</h2>
+            <div class="services__grid">
+                <div class="services__grid-item" tabindex="0">
+                    <img src="./icons/diagnostic-svgrepo-com.svg" alt="" class="services__grid-item-icon" aria-hidden="true" loading="lazy">
+                    <h3>Компьютерная диагностика</h3>
+                    <p class="services__grid-item-description">Полная диагностика всех систем автомобиля специализированным оборудованием.</p>
+                </div>
+                <div class="services__grid-item" tabindex="0">
+                    <img src="./icons/notification-maintenance-svgrepo-com.svg" alt="" class="services__grid-item-icon" aria-hidden="true" loading="lazy">
+                    <h3>Техническое обслуживание</h3>
+                    <p class="services__grid-item-description">Регламентное ТО, замена масел и расходных материалов</p>
+                </div>
+                <div class="services__grid-item" tabindex="0">
+                    <img src="./icons/engine-motor-svgrepo-com.svg" alt="" class="services__grid-item-icon" aria-hidden="true" loading="lazy">
+                    <h3>Ремонт двигателя</h3>
+                    <p class="services__grid-item-description">Капитальный и текущий ремонт двигателей любой сложности.</p>
+                </div>
+                <div class="services__grid-item" tabindex="0">
+                    <img src="./icons/wheel-angle-svgrepo-com.svg" alt="" class="services__grid-item-icon" aria-hidden="true" loading="lazy">
+                    <h3>Шиномонтаж</h3>
+                    <p class="services__grid-item-description">Профессиональный шиномонтаж и балансировка колес на современном оборудовании.</p>
+                </div>
+                <div class="services__grid-item" tabindex="0">
+                    <img src="./icons/suspension-svgrepo-com.svg" alt="" class="services__grid-item-icon" aria-hidden="true" loading="lazy">
+                    <h3>Ремонт подвески</h3>
+                    <p class="services__grid-item-description">Диагностика и ремнот подвески, рулевого управления.</p>
+                </div>
+                <div class="services__grid-item" tabindex="0">
+                    <img src="./icons/thunder-svgrepo-com.svg" alt="" class="services__grid-item-icon" aria-hidden="true" loading="lazy">
+                    <h3>Автоэлектрика</h3>
+                    <p class="services__grid-item-description">Диагностика и ремонт электроборудования любой сложности.</p>
+                </div>
+            </div>
+        </section>
+        <section id="wcu" class="why-choose-us container">
+            <div class="wcu__container">
+                <h2 class="wcu__title">Почему выбирают нас</h2>
+                <div class="wcu__grid">
+                    <div class="wcu__grid-item">
+                        <img src="./icons/safety-2.svg" alt="" class="wcu__grid-item-logo" aria-hidden="true" loading="lazy">
+                        <div class="wct__grid-item-content">
+                            <h3 class="wcu__grid-item-title">10+ <br>лет опыта</h3>
+                            <p class="wcu__grid-item-description">Более 10 лет мы заботимся о вашем автомобиле.</p>
+                        </div>
+                    </div>
+                    <div class="wcu__divider"></div>
+                    <div class="wcu__grid-item">
+                        <img src="./icons/people-svgrepo-com.svg" alt="" class="wcu__grid-item-logo" aria-hidden="true" loading="lazy">
+                        <div class="wct__grid-item-content">
+                            <h3 class="wcu__grid-item-title">5000+ <br>клиентов</h3>
+                            <p class="wcu__grid-item-description">Тысячи клиентов доверяют нам свои автомобили.</p>
+                        </div>
+                    </div>
+                    <div class="wcu__divider"></div>
+                    <div class="wcu__grid-item">
+                        <img src="./icons/24-hour-service-svgrepo-com.svg" alt="" class="wcu__grid-item-logo" aria-hidden="true" loading="lazy">
+                        <div class="wct__grid-item-content">
+                            <h3 class="wcu__grid-item-title">24/7<br>поддержка</h3>
+                            <p class="wcu__grid-item-description">Мы всегда на связи и готовы помочь вам в любое время.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-photos container">
+            <h2 class="photos__title">Наш сервис</h2>
+            <div class="photos__grid">
+                <div class="photo-1"></div>
+                <div class="photo-2"></div>
+                <div class="photo-3"></div>
+                <div class="photo-4"></div>
+            </div>
+        </section>
+        <section class="cta container">
+            <div class="cta__container">
+                <div class="cta__left">
+                    <div class="cta__icon">
+                        <img src="./icons/calendar-days-svgrepo-com.svg" alt="" aria-hidden="true" loading="lazy">
+                    </div>
+                    <div class="cta__left-text">
+                        <h2 class="cta__title">Готовы записаться<br>на осблуживание?</h2>
+                        <p class="cta__description">Оставьте заявку и мы с вами свяжемся в ближайшее время.</p>
+                    </div>
+                </div>
+                <button class="cta__btn btn">Записаться сейчас</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer__left pc">
+            <div class="logo">
+                <div class="logo__squard">
+                    <h1>A</h1>
+                </div>
+                <div class="logo__name">
+                    <h2 class="logo__title-name">A-MOTORS</h2>
+                    <p class="logo__description">АВТОСЕРВИС В АСТАНЕ</p>
+                </div>
+            </div>
+            <p class="footer__left-description">© 2026 A-MOTORS. Все права защищены.</p>
+        </div>
+        <div class="footer__right">
+            <div class="footer__contacts">
+                <h3 class="contacts__title">Контакты</h3>
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a href="https://2gis.kz/astana/search/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0%2034/geo/9570784863338483/71.484824%2C51.124746?m=71.443112%2C51.129884%2F11" class="contacts__link" target="_blank">
+                            <img src="./icons/location-svgrepo-com.svg" alt="" class="contacts__item-icon" aria-hidden="true" loading="lazy">
+                            Астана, просп. Рахимжана Кошкарбаева, 34
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="tel:+77711111111" class="contacts__link" target="_blank">
+                            <img src="./icons/telephone-svgrepo-com.svg" alt="" class="contacts__item-icon" loading="lazy">
+                            +7 (771) 111-11-11
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="mailto:info@a-motors.kz" class="contacts__link" target="_blank">
+                            <img src="./icons/mail-alt-3-svgrepo-com.svg" alt="" class="contacts__item-icon" loading="lazy">
+                            info@a-motors.kz
+                        </a>
+                    </li>
+                    <li class="contacts__item contact__clock">
+                            <img src="./icons/clock-svgrepo-com (1).svg" alt="" class="contacts__item-icon" loading="lazy">
+                            <p style="color: var(--color-text)">Ежедневно с 09:00 до 21:00</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="contacts__soc-net">
+                    <li class="s-net__item">
+                        <a href="https://www.instagram.com/" class="s-net__link" aria-label="Мы в Инстаграм">
+                            <img src="./icons/instagram-167-svgrepo-com.svg" alt="" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="s-net__item">
+                        <a href="https://www.telegram.com/" class="s-net__link" aria-label="Мы в Телеграм">
+                            <img src="./icons/telegram-svgrepo-com.svg" alt="" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="s-net__item">
+                        <a href="https://www.whatsapp.com" class="s-net__link" aria-label="Наш ватсап">
+                            <img src="./icons/whatsapp-svgrepo-com.svg" alt="" loading="lazy">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div style="position:relative;overflow:hidden;" class="footer__widget pc"><a href="https://yandex.kz/maps/163/astana/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Астана</a><a href="https://yandex.kz/maps/163/astana/house/raqymzhan_qoshqarbaev_dangghyly_34/Y0gYcg9jQUAFQFtrfX1zdXVhZw==/?ll=71.483852%2C51.124923&mode=search&sctx=ZAAAAAgAEAAaKAoSCfyPTIdO%2BFFAEatZZ3xfLEpAEhIJ%2B1xtxf6y0D8RrptSXiuhtz8iBgABAgMEBSgKOABA2%2BUBSAFqAmt6nQHNzEw9oAEAqAEAvQEXuQ2wwgEZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIICGdC60L7RiNC60LDRgNCx0LDQtdCy0LAgMzSKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=71.483852%2C51.124923&sspn=0.014197%2C0.005161&text=%D0%BA%D0%BE%D1%88%D0%BA%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0%2034&utm_medium=mapframe&utm_source=maps&z=16.2" style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Рахимжана Кошкарбаева, 34 — Яндекс Карты</a><iframe src="https://yandex.kz/map-widget/v1/?ll=71.483852%2C51.124923&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgk3NzIwNTM4MjUSWtKa0LDQt9Cw0pvRgdGC0LDQvSwg0JDRgdGC0LDQvdCwLCDQoNCw0pvRi9C80LbQsNC9INKa0L7RiNKb0LDRgNCx0LDQtdCyINC00LDSo9KT0YvQu9GLLCAzNCIKDbv3jkIV639MQg%2C%2C&sctx=ZAAAAAgAEAAaKAoSCfyPTIdO%2BFFAEatZZ3xfLEpAEhIJ%2B1xtxf6y0D8RrptSXiuhtz8iBgABAgMEBSgKOABA2%2BUBSAFqAmt6nQHNzEw9oAEAqAEAvQEXuQ2wwgEZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIICGdC60L7RiNC60LDRgNCx0LDQtdCy0LAgMzSKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=71.483852%2C51.124923&sspn=0.014197%2C0.005161&text=%D0%BA%D0%BE%D1%88%D0%BA%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0%2034&z=16.2" width="350" height="240" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
+    </footer>
+</body>
+</html>

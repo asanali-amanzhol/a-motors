@@ -1,0 +1,67 @@
+.contacts__item-icon {
+    width: 25px;
+}
+
+.contacts__title {
+    display: none;
+}
+
+.contacts__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.contact__clock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.s-net__link img {
+    width: 25px;
+}
+
+.contacts__soc-net {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+@media (min-width: 1024px) {
+    .contacts__title {
+        display: inline;
+    }
+}

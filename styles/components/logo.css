@@ -1,0 +1,23 @@
+.logo__squard {
+    height: 56px;
+    width: 56px;
+    background-color: var(--color-accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}

@@ -1,0 +1,49 @@
+body {
+    background-color: var(--color-bg-main);
+    cursor: default;
+    transition: .3s;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-family-title);
+    line-height: 1.3;
+}
+
+.container {
+    padding: 20px;
+}
+
+p {
+    font-family: var(--font-family-text);
+    color: var(--color-secondary-text);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul, ol {
+    font-family: var(--font-family-text);
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Бонус: убирает стандартные точки/маркеры */
+}
+
+.pc {
+    display: none;
+}
+
+iframe {
+    border: none;
+    border-radius: 12px;
+}
+
+@media (min-width: 1024px) {
+    .pc {
+        display: block;
+    }
+}

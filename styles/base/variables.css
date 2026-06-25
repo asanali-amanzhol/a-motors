@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "ManropeB";
+    src: url(../../fonts/Manrope-ExtraBold.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "ManropeR";
+    src: url(../../fonts/Manrope-Regular.woff2) format(woff2);
+}
+
+:root {
+    --font-family-title: "ManropeB", sans-serif;
+    --font-family-text: "ManropeR", sans-serif;
+
+    --color-bg-main: #F7F7F5;
+    --color-bg-card: #FFFFFF;
+    --color-border: #EEEEEE;
+
+    --color-text: #111111;
+    --color-secondary-text: #6B6B6B;
+
+    --color-accent: #0D6EFD;
+    --color-light-accent: #eaf0f9;
+}

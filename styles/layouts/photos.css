@@ -1,0 +1,66 @@
+.service-photos {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.photos__grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.photos__grid div {
+    width: auto;
+    height: 150px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.photos__grid div:hover {
+    transform: scale(1.05);
+}
+
+.photo-1 {
+    background-image: url(../../images/12.jpg);
+    background-size: cover;
+}
+
+.photo-2 {
+    background-image: url(../../images/cap_x6.jpg);
+    background-size: cover;
+}
+
+.photo-3 {
+    background-image: url(../../images/mir-bmw-service.webp);
+    background-size: cover;
+}
+
+.photo-4 {
+    background-image: url(../../images/pic_76.jpg);
+    background-size: cover;
+}
+
+.photos__title {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.photos__title::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 20%;
+    height: 2px;
+    background-color: var(--color-accent);
+}
+
+@media (min-width: 1024px) {
+    .service-photos {
+        display: flex;
+    }
+}
